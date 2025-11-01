@@ -1,0 +1,7 @@
+{
+  "event":"suspicious_process_exe_downloaded",
+  "sid":"SAMPLE-SENSOR-ID-123",
+  "host":"win-laptop-01.example.local",
+  "severity":"high",
+  "evidence":"Process spawned from %temp% with C2 traffic detected"
+}

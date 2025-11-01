@@ -1,0 +1,48 @@
+# Python and Flask
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+instance/
+.env
+venv/
+
+# Logs and temporary files
+
+*.log
+*.tmp
+*.bak
+.DS_Store
+
+# IDE / Editor directories
+
+.vscode/
+.idea/
+*.swp
+
+# Distribution / packaging
+
+build/
+dist/
+*.egg-info/
+
+# System files
+
+Thumbs.db
+
+# Credentials / configs
+
+app/config.env
+app/config.local.env
+.env.local
+.env.production
+
+# Testing and coverage
+
+.coverage
+htmlcov/
+.tox/
+pytest_cache/
