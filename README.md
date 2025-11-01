@@ -11,7 +11,7 @@ It includes:
 
 ---
 
-## 🧩 Architecture Overview
+## Architecture Overview
 
 ```
 [Sensor / Endpoint] --> LimaCharlie (EDR)
@@ -35,7 +35,7 @@ It includes:
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1. Prerequisites
 
@@ -89,7 +89,7 @@ The service will start listening at `http://localhost:5000`.
 
 ---
 
-## 🧪 Testing the Pipeline
+## Testing the Pipeline
 
 ### Simulate a Detection Event
 
@@ -107,7 +107,7 @@ curl -X POST -H "Content-Type: application/json" \
 
 ---
 
-## 🧠 Using with Tines
+## Using with Tines
 
 ### Create a Tines Story
 
@@ -130,7 +130,7 @@ An example Tines story (`examples/tines_story.md`) is provided to help you recre
 
 ---
 
-## 🔒 Security Notes
+## Security Notes
 
 * **Do not** commit API keys or secrets to GitHub.
 * Use `.env` or a secret manager (e.g., AWS Secrets Manager, Vault).
@@ -139,7 +139,7 @@ An example Tines story (`examples/tines_story.md`) is provided to help you recre
 
 ---
 
-## 📬 Notifications
+## Notifications
 
 The project includes:
 
@@ -150,7 +150,7 @@ Both can be customized in `app/notifier.py`.
 
 ---
 
-## 📄 References
+## References
 
 * [LimaCharlie REST API Documentation](https://doc.limacharlie.io/docs/api-reference)
 * [Tines Webhook & HTTP Request Actions](https://www.tines.com/docs/actions/webhook)
